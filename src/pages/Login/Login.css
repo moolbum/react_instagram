@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+.login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 350px;
+}
+
+.login .topWrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 348px;
+  border: 1px solid #dbdbdb;
+  background-color: #ffffff;
+}
+
+.login .topWrap .logo {
+  padding: 40px 0;
+  font-family: 'Lobster', cursive;
+  font-size: 45px;
+}
+
+.login .topWrap input {
+  width: 266px;
+  padding: 10px 5px;
+  margin-top: 5px;
+  color: #8e8e8e;
+  background-color: #fafafa;
+  border: 1px solid rgba(var(--b6a, 219, 219, 219), 1);
+  border-radius: 1px;
+  font-size: 12px;
+}
+
+.login .topWrap input::-webkit-input-placeholder {
+  padding-left: 2px;
+  font-size: 12px;
+}
+
+.login .topWrap input:-ms-input-placeholder {
+  padding-left: 2px;
+  font-size: 12px;
+}
+
+.login .topWrap input::-ms-input-placeholder {
+  padding-left: 2px;
+  font-size: 12px;
+}
+
+.login .topWrap input::placeholder {
+  padding-left: 2px;
+  font-size: 12px;
+}
+
+.login .topWrap .loginButton {
+  width: 266px;
+  padding: 8px 0;
+  margin: 15px 0;
+  color: #ffffff;
+  background-color: #b2dffc;
+  border: none;
+  border-radius: 1px;
+  outline: none;
+  font-weight: bold;
+}
+
+.login .topWrap .loginButton .meddleLine {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 266px;
+  color: #8e8e8e;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.login .topWrap .loginButton .meddleLine .line {
+  width: 103px;
+  height: 1px;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.login .topWrap .facebookWrap p {
+  padding-top: 20px;
+  color: #385185;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.login .topWrap .passwordLost {
+  padding: 20px 0;
+  color: #00376b;
+  font-size: 12px;
+}
+
+.login .signUpWrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 348px;
+  height: 60px;
+  margin-top: 20px;
+  border: 1px solid #dbdbdb;
+  background-color: #ffffff;
+  font-size: 14px;
+}
+
+.login .signUpWrap .signUpBlue {
+  color: #0095f6;
+  background: none;
+  border: none;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.login .downlodeCopyright {
+  margin: 20px 0;
+  font-size: 14px;
+}
+
+.login .storeWrap img {
+  width: 136px;
+}
+/*# sourceMappingURL=Login.css.map */
